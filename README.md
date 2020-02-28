@@ -4,17 +4,17 @@ Requires Unity 2019.2 or later.
 
 ## Description
 
-This unity project/package contains a template you can build on to create a custom "mutli-page" Editor Window. You can create multiple "panels" for the window (each in a separate file), and use the navigation system provided. Navigation includes the ability to switch between panels smoothly using a "sliding" animation (based on Unity's AnimationCurves).  
+This Unity project/package contains a template you can build on to create a custom "mutli-page" Editor Window. You can create multiple "panels" for the window (each in a separate file), and use the navigation system provided. Navigation includes the ability to switch between panels smoothly using a "sliding" animation (based on Unity's AnimationCurves).  
   
 Disclaimers:  
-1. Currently doesn't serialize the windows correctly, so a recompile will crash the windows. This can be fixed by switching the windows over to useing ScriptableObjects.  
+1. Currently doesn't serialize the windows correctly, so a recompile will crash the windows. This can be fixed by switching the windows over to using ScriptableObjects.  
 2. Navigation works in a stack but only supports backwards navigation. No forward navigation if you go back a page, but then want to return to the previous page.
 
 ## How to open
 
 Either clone the repository and open the included Unity project in Unity 2019.2 or later.  
   
-OR download the unity package file and import it into your own project.
+OR download the Unity package file and import it into your own project.
 
 ## Opening the Window:
 
